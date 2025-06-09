@@ -55,7 +55,7 @@ const init = async () => {
     host: 'localhost',
     routes: {
       cors: {
-        origin: ['http://localhost:8080', 'https://previously-notable-hound.ngrok-free.app', 'https://saria4558.github.io'],  // boleh diganti sesuai kebutuhan, contoh: ['http://127.0.0.1:5500']
+        origin: ['http://localhost:8080', 'https://previously-notable-hound.ngrok-free.app', 'https://saria4558.github.io', 'https://api.botaniq.com/v1'],  // boleh diganti sesuai kebutuhan, contoh: ['http://127.0.0.1:5500']
         additionalHeaders: ['cache-control', 'x-requested-with', 'authorization', 'content-type'],
         maxAge: 86400,
         credentials: true
